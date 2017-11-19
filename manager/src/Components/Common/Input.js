@@ -24,9 +24,8 @@ const styles = {
         paddingRight: 5,
         paddingLeft: 5,
         fontSize: 18,
-        lineHeight:23,
+        lineHeight: 23,
         flex: 3,
-        textTransform: 'lowercase'
     },
     labelStyle: {
         fontSize: 18,
