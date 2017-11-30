@@ -13,7 +13,7 @@ class Ball extends Component {
             <Animated.View style={this.position.getLayout()}>
                 <View style={styles.ball} />
             </Animated.View>
-        )
+        );
     }
 }
 const styles = {
