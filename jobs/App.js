@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 import registerForNotifications from './services/push_notifications';
+
 import AuthScreen from './screens/AuthScreen';
 import WelcomeScreen from './screens/WelcomeScreen';
 import MapScreen from './screens/MapScreen';
@@ -32,7 +33,7 @@ export default class App extends React.Component {
         welcome: { screen: WelcomeScreen },
         auth: { screen: AuthScreen },
         main: {
-            screen: TabNavigator({
+            screen: TabNavigator({``
                 map: { screen: MapScreen },
                 deck: { screen: DeckScreen },
                 review: {

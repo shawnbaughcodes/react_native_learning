@@ -5,13 +5,6 @@ import { Button } from 'react-native-elements'
 import * as actions from '../actions';
 
 class SettingsScreen extends Component {
-    static navigationOptions = {
-        header: {
-            style: {
-                marginTop: Platform.OS === 'android' ? 24 : 0
-            }
-        }
-    }
     render() {
         return (
             <View>

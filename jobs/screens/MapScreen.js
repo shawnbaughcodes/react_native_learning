@@ -60,6 +60,7 @@ class MapScreen extends Component {
         );
     }
 }
+
 const styles = {
     buttonContainer: {
         position: 'absolute',
